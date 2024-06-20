@@ -1,0 +1,160 @@
+/* <style> */
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Rubik+Doodle+Shadow&display=swap');
+
+#root {
+  /* max-width: 1280px; */
+  margin: 0;
+  padding: 0;
+
+}
+
+.main_page_bg {
+  position: relative;
+  height: 75vh;
+  width: 75%;
+  border-radius: 100px;
+
+}
+
+
+
+.home {
+  width: 100vw;
+  /* margin-bottom: 10vh; */
+  height: 100vb;
+  /* background-color: red; */
+  background-image: url("src/Images/main_page_back-removebg-preview.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.new {
+  position: absolute;
+  top: 40%;
+  left: 14%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 4vw;
+}
+
+.greetings {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  font-family: 'Grape Nuts', cursive;
+  font-size: 4vw;
+}
+
+
+
+
+
+.mid {
+  width: 90%;
+  height: 80%;
+  background-color: rgb(226, 242, 245);
+  border-radius: 100px;
+  /* border: 10px solid black; */
+  box-shadow: 
+    0 0 20px rgba(0, 0, 0, 0.1), /* Base shadow */
+    0 0 40px rgba(0, 0, 0, 0.1), /* Light shadow */
+    0 0 60px rgba(0, 0, 0, 0.1); /* Strong shadow */
+}
+
+
+
+
+
+.men {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(182, 231, 235);
+
+}
+
+.men_popular {
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-weight: 400;
+  margin-top: 6vh;
+  font-style: normal;
+  font-size: 4vw;
+}
+
+.men_popular:hover {
+  color: rgb(0, 195, 255);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+.women_popular:hover {
+  color: rgb(255, 48, 162);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.women_popular {
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-weight: 400;
+  margin-top: 6vh;
+  font-style: normal;
+  font-size: 4vw;
+}
+
+.women {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(182, 231, 235);
+}
+
+
+.kid_popular:hover {
+  color: rgb(33, 163, 65);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.kid_popular {
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-weight: 400;
+  margin-top: 6vh;
+  font-style: normal;
+  font-size: 4vw;
+}
+
+.kid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10 0 0 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(182, 231, 235);
+}
+
+
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 50vh;
+  background-color: rgb(36, 36, 36);
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.App {
+  width: 100%;
+}
